@@ -1,0 +1,30 @@
+.Air {
+  position: relative;
+  text-align: center;
+  height: auto;
+}
+
+.pagination-menu {
+  flex-direction: column;
+  width: 20%;
+  text-align: left;
+  color: white;
+  top: 7rem;
+  left: 1rem;
+  font-size: 1.8rem;
+  position: fixed;
+  z-index: 1;
+}
+
+.page-item {
+  margin-bottom: 1rem;
+}
+
+.page-link {
+  color: white;
+  text-decoration: none;
+}
+
+.active {
+  text-decoration: underline;
+}

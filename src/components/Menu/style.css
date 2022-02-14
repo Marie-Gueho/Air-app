@@ -1,0 +1,48 @@
+.menu {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    background-color: #a8bbc3d1;
+    padding: 0.5rem;
+    z-index: 1;
+    display: flex;
+}
+
+.menu-list {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.menu-list button, .menu button {
+    background-color: transparent;
+    padding: 1rem 2rem;
+    width: 10rem;
+    color: white;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-right: 4rem;
+    transition: 0.3s;
+}
+
+.meni-list button:hover, .menu button:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.quote-btn {
+    width: 14rem !important;
+}
+
+.quote {
+    color: white;
+    width: 60rem;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    font-family: monospace;
+    font-size: 1rem;
+}
+
+
+

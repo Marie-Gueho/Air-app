@@ -1,0 +1,61 @@
+.header {
+    color: white;
+    font-size: 15rem;
+    display: flex;
+}
+
+.header-title {
+    border: 1px dotted white;
+    border-radius: 15px;
+    padding: 1rem 4rem;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-title:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    background-color: rgb(176 213 215 / 22%);
+}
+
+.header-title span {
+    font-size:1.2rem;
+}
+
+.no-border {
+    border: none;
+    box-shadow: unset;
+    padding-right: 1rem;
+}
+
+.header-theme {
+    color: white;
+    font-size: 15rem;
+    display: flex;
+    align-items: center;
+}
+
+.header-theme-title {
+    font-size: 8rem;
+    border: none;
+    box-shadow: unset;
+    letter-spacing: 15px;
+    animation: appear 5s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+.hidden {
+    display: none;
+}

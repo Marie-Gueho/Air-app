@@ -1,0 +1,40 @@
+.section-theme {
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.theme-respiration {
+    background-image: url(https://res.cloudinary.com/piaeonia/image/upload/v1644753002/air/qqbazjij03yf6dl8nc4c.jpg);
+    background-size: cover;
+
+}
+
+.theme-revitalisation {
+    background-image: url(https://res.cloudinary.com/piaeonia/image/upload/v1644666857/air/erxdse6epame0g3vzb5k.jpg);
+    background-size: cover;
+}
+
+.theme-relaxation {
+    background-image: url(https://res.cloudinary.com/piaeonia/image/upload/v1644666858/air/hgqj7jlfbnj4d3qktft9.jpg);
+    background-size: cover;
+}
+
+.theme-respiration-dark {
+    background-image: url(https://res.cloudinary.com/piaeonia/image/upload/v1644752833/air/ys2qaptyykxqbu6wfuay.jpg);
+    background-size: cover;
+}
+
+.theme-revitalisation-dark {
+    background-image: url(https://res.cloudinary.com/piaeonia/image/upload/v1644666853/air/ljwtpnvjfzx5jjk5onyw.jpg);
+    background-size: cover;
+}
+
+.theme-relaxation-dark {
+    background-image: url(https://res.cloudinary.com/piaeonia/image/upload/v1644666854/air/aiocntjtk643f9xg2kw4.jpg);
+    background-size: cover;
+}

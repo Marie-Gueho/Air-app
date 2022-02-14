@@ -1,0 +1,21 @@
+.aside-menu-list {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    text-align: left;
+    color: white;
+    margin-top: 7rem;
+    margin-left: 1rem;
+    font-size: 1.8rem;
+    position: fixed;
+    z-index: 1;
+}
+
+.aside-list-item {
+    margin-bottom: 1.2rem;
+}
+
+.aside-list-item a{
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,60 @@
+
+#popover-positioned-bottom {
+    background-color: #a8bbc3d1;
+    border-radius: 15px;
+    padding: 2rem;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.popover-form {
+    left: 90rem !important;
+    top: 1rem !important;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.contact-form input {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-radius: 7px;
+    border: none;
+}
+.contact-form label {
+    margin-bottom: 0.7rem;
+}
+
+.contact-form textarea {
+    border: none;
+    border-radius: 7px;
+}
+
+.contact-title {
+    padding: 0 2rem;
+}
+
+.contact-form button {
+    margin-top: 1rem;
+    background-color: transparent;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    border: none;
+    border-radius: 7px;
+    padding: 1rem 0;
+    transition: 0.3s;
+    
+}
+
+.contact-form button:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.message-status {
+    width: 20rem;
+    height: 2rem;
+    padding: 0 1rem;
+    text-align: center;
+}
