@@ -2,7 +2,7 @@ import "./style.css";
 import stars from "../../assets/stars.mp4";
 import countryside from "../../assets/countryside.mp3";
 import forest from "../../assets/foret.mp3";
-import champ from "../../assets/perche.mp3";
+import birds from "../../assets/birds.mp4";
 import waves from "../../assets/waves.mp4";
 import surreal from "../../assets/surreal-forest.mp4";
 
@@ -21,9 +21,9 @@ function Content({ display, theme }) {
               </audio>
             </figure>
             <figure>
-              <figcaption>Une pause dans le Perche</figcaption>
-              <audio controls src={champ}>
-                <cite>La Sonothèque: https://lasonotheque.org/</cite>
+              <figcaption>Avec les oiseaux</figcaption>
+              <audio controls src={birds}>
+                <cite>Music: https://www.chosic.com/free-music/all/ </cite>
                 Your browser does not support the
                 <code>audio</code> element.
               </audio>
@@ -66,7 +66,7 @@ function Content({ display, theme }) {
               </audio>
             </figure>
             <figure>
-              <figcaption>Dans la forêt</figcaption>
+              <figcaption>Il était une fois dans la forêt</figcaption>
               <audio controls src={surreal}>
                 <cite>
                   Surreal Forest by Meydän | https://linktr.ee/meydan Music
