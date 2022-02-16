@@ -5,3 +5,9 @@
     margin-bottom: 1rem;
     margin-top: 2rem;
 }
+
+@media screen and (max-width: 600px) {
+    .sound-container {
+        margin-top: 10rem;
+    }
+}

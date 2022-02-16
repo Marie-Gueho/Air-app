@@ -34,3 +34,17 @@
 .button-back {
     margin-top: 3rem;
 }
+
+@media screen and (max-width: 800px) {
+    .button {
+        font-size: 2rem;
+        margin-top: 1rem;;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .button {
+        font-size: 1.8rem;
+        margin-top: 2rem;;
+    }
+}
