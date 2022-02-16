@@ -45,7 +45,6 @@
     border-radius: 7px;
     padding: 1rem 0;
     transition: 0.3s;
-    
 }
 
 .contact-form button:hover {
@@ -57,4 +56,71 @@
     height: 2rem;
     padding: 0 1rem;
     text-align: center;
+}
+
+@media screen and (max-width: 1700px) {
+    .popover-form {
+        left: 73rem !important;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .popover-form {
+        left: 68rem !important;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .popover-form {
+        left: 60rem !important;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .popover-form {
+        left: 50rem !important;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .popover-form {
+        left: 40rem !important;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .popover-form {
+        left: 30rem !important;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .popover-form {
+        left: 20rem !important;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .popover-form {
+        left: 10% !important;
+        right: 10% !important;
+    }
+    #popover-positioned-bottom {
+        background-color: #a8bbc3;
+        z-index: 1;
+    }
+    .message-status {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .popover-form {
+        left: 5% !important;
+        right: 7% !important;
+    }
+    #popover-positioned-bottom {
+        background-color: #a8bbc3;
+        z-index: 1;
+    }
 }
